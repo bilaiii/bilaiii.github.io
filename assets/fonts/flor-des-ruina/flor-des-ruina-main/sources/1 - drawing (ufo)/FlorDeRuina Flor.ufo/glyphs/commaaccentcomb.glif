@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaaccentcomb" format="2">
+  <unicode hex="0326"/>
+  <anchor x="135" y="0" name="_bottom"/>
+  <anchor x="135" y="-277" name="bottom"/>
+  <outline>
+    <component base="period" xOffset="3" yOffset="-156"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="155" yOffset="-86"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="155" yOffset="-126"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="155" yOffset="-45"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="115" yOffset="-126"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="115" yOffset="-166"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="75" yOffset="-166"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.hugojourdan.ColorFlow</key>
+  <dict>
+    <key>0</key>
+    <integer>0</integer>
+    <key>1</key>
+    <integer>0</integer>
+    <key>10</key>
+    <integer>0</integer>
+    <key>11</key>
+    <integer>0</integer>
+    <key>2</key>
+    <integer>0</integer>
+    <key>3</key>
+    <integer>0</integer>
+    <key>4</key>
+    <integer>0</integer>
+    <key>5</key>
+    <integer>0</integer>
+    <key>6</key>
+    <integer>0</integer>
+    <key>7</key>
+    <integer>0</integer>
+    <key>8</key>
+    <integer>0</integer>
+    <key>9</key>
+    <integer>0</integer>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.lastChange</key>
+  <real>0</real>
+  <key>public.objectLibs</key>
+  <dict>
+    <key>0E8BDDD9</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>2E1C5B67</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>52565C95</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>6784E50B</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>98045732</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>A5F00247</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

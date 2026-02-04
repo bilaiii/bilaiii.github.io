@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedillacomb" format="2">
+  <unicode hex="0327"/>
+  <anchor x="126" y="0" name="_bottom"/>
+  <anchor x="126" y="-249" name="bottom"/>
+  <note>
+uni0327</note>
+  <outline>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="167" yOffset="-125"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="123.5" yOffset="-126.5"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="87" yOffset="-2"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="123" yOffset="-169.5"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="79.5" yOffset="-171.5"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="39.5" yOffset="-171.5"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="87" yOffset="37.5"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="47" yOffset="-2"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="127" yOffset="-2"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="127" yOffset="-42"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="167" yOffset="-42"/>
+    <component base="_pixel1" xScale="0.0175" xyScale="-1.111" yxScale="1.111" yScale="0.0175" xOffset="167" yOffset="-85"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>assembly</key>
+  <real>0</real>
+  <key>com.hugojourdan.ColorFlow</key>
+  <dict>
+    <key>0</key>
+    <integer>0</integer>
+    <key>1</key>
+    <integer>0</integer>
+    <key>10</key>
+    <integer>0</integer>
+    <key>11</key>
+    <integer>0</integer>
+    <key>2</key>
+    <integer>0</integer>
+    <key>3</key>
+    <integer>0</integer>
+    <key>4</key>
+    <integer>0</integer>
+    <key>5</key>
+    <integer>0</integer>
+    <key>6</key>
+    <integer>0</integer>
+    <key>7</key>
+    <integer>0</integer>
+    <key>8</key>
+    <integer>0</integer>
+    <key>9</key>
+    <integer>0</integer>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.lastChange</key>
+  <real>0</real>
+  <key>public.objectLibs</key>
+  <dict>
+    <key>36C74244</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>381A152F</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>40A16574</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>90E54BF7</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>91F8B1B4</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>A43E8340</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>B93F603F</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>BCE1469B</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>C1B2A09F</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>D0A0C07E</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>DCE5A7B8</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>FF0BB56B</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

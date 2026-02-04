@@ -1,0 +1,7 @@
+.direnv/
+.devenv*
+.envrc
+
+node_modules/
+.cache/
+dist/

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelowcomb" format="2">
+  <unicode hex="0323"/>
+  <anchor x="133" y="0" name="_bottom"/>
+  <anchor x="133" y="-247" name="bottom"/>
+  <outline>
+    <component base="_pixel1" xOffset="6.5" yOffset="-210"/>
+    <component base="_pixel1" xOffset="43.5" yOffset="-247"/>
+    <component base="_pixel1" xOffset="43.5" yOffset="-210"/>
+    <component base="_pixel1" xOffset="80.5" yOffset="-210"/>
+    <component base="_pixel1" xOffset="43.5" yOffset="-174"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.schriftgestaltung.Glyphs.lastChange</key>
+  <real>0</real>
+  <key>public.objectLibs</key>
+  <dict>
+    <key>581E87FC</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>6EAFA8EA</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>96306A23</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>DA72775C</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>E4B7E962</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

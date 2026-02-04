@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="flower1" format="2">
+  <advance width="496"/>
+  <unicode hex="1F352"/>
+  <outline>
+    <component base="_pixel1" xOffset="211" yOffset="-2"/>
+    <component base="_pixel1" xOffset="136" yOffset="36"/>
+    <component base="_pixel1" xOffset="136" yOffset="73"/>
+    <component base="_pixel1" xOffset="173" yOffset="73"/>
+    <component base="_pixel1" xOffset="244" yOffset="-2"/>
+    <component base="_pixel1" xOffset="175" yOffset="35"/>
+    <component base="_pixel1" xOffset="61"/>
+    <component base="_pixel1" xOffset="61" yOffset="37"/>
+    <component base="_pixel1" xOffset="98" yOffset="37"/>
+    <component base="_pixel1" xOffset="100" yOffset="-1"/>
+    <component base="_pixel1" xOffset="211" yOffset="37"/>
+    <component base="_pixel1" xOffset="244" yOffset="37"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.schriftgestaltung.Glyphs.lastChange</key>
+  <real>0</real>
+  <key>public.objectLibs</key>
+  <dict>
+    <key>10679E8B</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>35BA2DBF</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>5030C2CB</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>5393CBA1</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>61354899</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>6EC44210</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>7D2A8267</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>8391D85C</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>A24F69B6</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>B688A0DB</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>E8D1891A</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+    <key>FC56FB78</key>
+    <dict>
+      <key>com.schriftgestaltung.alignment</key>
+      <integer>-1</integer>
+    </dict>
+  </dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

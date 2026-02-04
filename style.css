@@ -1,0 +1,104 @@
+@font-face {
+	font-style: normal;
+	font-family: "Karrik";
+	src:
+		url("/assets/fonts/karrik/karrik_fonts-main/fonts/Web/WOFF2/Karrik-Regular.woff2") format("WOFF2"),
+		url("/assets/fonts/karrik/karrik_fonts-main/fonts/Web/WOFF/Karrik-Regular.woff") format("WOFF");
+}
+
+@font-face {
+	font-style: italic;
+	font-family: "Karrik";
+	src:
+		url("/assets/fonts/karrik/karrik_fonts-main/fonts/Web/WOFF2/Karrik-Italic.woff2") format("WOFF2"),
+		url("/assets/fonts/karrik/karrik_fonts-main/fonts/Web/WOFF/Karrik-Italic.woff") format("WOFF");
+}
+
+:root {
+	--bg-0: #F7F5F0;
+	--bg-1: #E8E1DA;
+	--bg-2: #D9CDC5;
+	--fg-0: #2A2A2B;
+	--fg-1: #44474D;
+	--fg-2: ;
+	--accent-0: #cbb08c;
+	--accent-1: #806E58;
+	--accent-2: #3C3429;
+	--alternate-0: #8DB5CC;
+	--ease-out-expo: cubic-bezier(0.19, 1.00, 0.22, 1.00);
+	--material: cubic-bezier(0.40, 0.00, 0.20, 1.00);
+	font-family: "Karrik";
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: var(--bg-0);
+	color: var(--fg-0);
+	max-width: 724px;
+}
+
+.container {}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--bg-1);
+	padding: 32px;
+	justify-content: space-between;
+}
+
+a {
+	font-size: 32px;
+	text-decoration: none;
+	text-align: center;
+	color: var(--accent-0);
+
+	transition: scale 0.4s var(--material),
+		flex 0.3s var(--material),
+		transform 0.3s var(--material),
+		color 0.1s var(--material);
+
+	&:active {}
+
+	&:hover {
+		color: var(--accent-1);
+		transform: scaleY(1.8);
+	}
+
+	&:visited {}
+}
+
+
+.header {
+	display: flex;
+	height: 60px;
+}
+
+h1 {
+	padding: 12px 12px 8px 12px;
+	margin: 0;
+	font-weight: normal;
+	flex: none;
+	max-width: 100%;
+	background-color: var(--bg-2);
+	color: var(--fg-0);
+
+	* {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.header::after {
+	content: "";
+	background: repeating-conic-gradient(var(--bg-2) 0 25%, transparent 0 50%);
+	display: block;
+	width: 100%;
+	background-size: 40px 40px;
+	transition: background-position 2.4s cubic-bezier(0.85, 0, 0.15, 1);
+}
+
+.header:hover::after {
+	background-position: 50% 100%;
+}

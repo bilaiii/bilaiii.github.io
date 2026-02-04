@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ygrave" format="2">
+  <advance width="627"/>
+  <unicode hex="1EF3"/>
+  <anchor x="129" y="-58.5" name="bottom"/>
+  <anchor x="-29.5" y="-58.5" name="center"/>
+  <anchor x="-29.5" y="-58.5" name="ogonek"/>
+  <anchor x="104.5" y="365.5" name="top"/>
+  <note>
+ygrave</note>
+  <outline>
+    <component base="y"/>
+    <component base="gravecomb" xOffset="149.5" yOffset="99.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.hugojourdan.ColorFlow</key>
+  <dict>
+    <key>0</key>
+    <integer>0</integer>
+    <key>1</key>
+    <integer>0</integer>
+    <key>10</key>
+    <integer>0</integer>
+    <key>11</key>
+    <integer>0</integer>
+    <key>2</key>
+    <integer>0</integer>
+    <key>3</key>
+    <integer>0</integer>
+    <key>4</key>
+    <integer>0</integer>
+    <key>5</key>
+    <integer>0</integer>
+    <key>6</key>
+    <integer>0</integer>
+    <key>7</key>
+    <integer>0</integer>
+    <key>8</key>
+    <integer>0</integer>
+    <key>9</key>
+    <integer>0</integer>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.lastChange</key>
+  <real>0</real>
+  </dict>
+  </lib>
+</glyph>
