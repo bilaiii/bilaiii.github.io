@@ -15,14 +15,14 @@
 }
 
 :root {
-	--bg-0: #F7F5F0;
-	--bg-1: #E8E1DA;
-	--bg-2: #D9CDC5;
-	--fg-0: #2A2A2B;
+	--bg-0: #fff;
+	--bg-1: #A670E0;
+	--bg-2: #000;
+	--fg-0: #fff;
 	--fg-1: #44474D;
 	--fg-2: ;
-	--accent-0: #cbb08c;
-	--accent-1: #806E58;
+	--accent-0: #fff;
+	--accent-1: #fff;
 	--accent-2: #3C3429;
 	--alternate-0: #8DB5CC;
 	--ease-out-expo: cubic-bezier(0.19, 1.00, 0.22, 1.00);
@@ -30,8 +30,22 @@
 	font-family: "Karrik";
 }
 
+html {
+	height: 100%;
+}
+
 body {
-	margin: 0 auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	/* Keeps your header at the top of the stack */
+	justify-content: center;
+	/* Centers vertically */
+	align-items: center;
+	/* Centers horizontally */
+	min-height: 100vh;
+	/* Uses 100% of the viewport height */
+	margin: auto;
 	padding: 0;
 	background-color: var(--bg-0);
 	color: var(--fg-0);
@@ -69,7 +83,6 @@ a {
 		transform: scaleY(1.8);
 	}
 
-	&:visited {}
 }
 
 
@@ -79,6 +92,13 @@ a {
 }
 
 h1 {
+	transform-origin: 0% 0%;
+	transition: 0.2s var(--material);
+
+	&:hover {
+		transform: scaleX(1.9);
+	}
+
 	padding: 12px 12px 12px 12px;
 	width: 160px;
 	margin: 0;
@@ -88,10 +108,6 @@ h1 {
 	background-color: var(--bg-2);
 	color: var(--fg-0);
 
-	* {
-		padding: 0;
-		margin: 0;
-	}
 }
 
 .header::after {
@@ -102,6 +118,7 @@ h1 {
 	background-size: 40px 40px;
 	transition: background-size 2.4s cubic-bezier(0.85, 0, 0.15, 1);
 }
+
 .about.header::after {
 	content: "";
 	background: repeating-conic-gradient(var(--bg-0) 0 25%, var(--bg-2) 0 50%);
@@ -116,11 +133,29 @@ h1 {
 }
 
 .about {
+	h1 {
+		text-align: right;
+		transform-origin: 100% 100%;
+	}
+
 	flex-direction: row-reverse;
 	background-color: var(--bg-2);
 	margin: 0;
+
 	p {
 		margin: 0;
 		padding: 12px;
+	}
+}
+
+.accent {
+	display: inline-block;
+	font-style: italic;
+	transform: scaleY(1);
+	transition: 0.2s var(--material);
+
+	&:hover {
+		font-style: normal;
+		transform: scaleY(1.8) rotate(-2deg);
 	}
 }
