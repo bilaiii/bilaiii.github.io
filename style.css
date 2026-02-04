@@ -38,9 +38,12 @@ body {
 	max-width: 724px;
 }
 
-.container {}
+.container {
+	margin: 24px 0;
+}
 
 .links {
+	margin: 0;
 	display: flex;
 	flex-direction: row;
 	background-color: var(--bg-1);
@@ -76,7 +79,8 @@ a {
 }
 
 h1 {
-	padding: 12px 12px 8px 12px;
+	padding: 12px 12px 12px 12px;
+	width: 160px;
 	margin: 0;
 	font-weight: normal;
 	flex: none;
@@ -92,13 +96,31 @@ h1 {
 
 .header::after {
 	content: "";
-	background: repeating-conic-gradient(var(--bg-2) 0 25%, transparent 0 50%);
+	background: repeating-conic-gradient(transparent 0 25%, var(--bg-2) 0 50%);
 	display: block;
 	width: 100%;
 	background-size: 40px 40px;
-	transition: background-position 2.4s cubic-bezier(0.85, 0, 0.15, 1);
+	transition: background-size 2.4s cubic-bezier(0.85, 0, 0.15, 1);
+}
+.about.header::after {
+	content: "";
+	background: repeating-conic-gradient(var(--bg-0) 0 25%, var(--bg-2) 0 50%);
+	display: block;
+	width: 100%;
+	background-size: 40px 40px;
+	transition: background-size 2.4s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .header:hover::after {
-	background-position: 50% 100%;
+	background-size: 40px 120px;
+}
+
+.about {
+	flex-direction: row-reverse;
+	background-color: var(--bg-2);
+	margin: 0;
+	p {
+		margin: 0;
+		padding: 12px;
+	}
 }
