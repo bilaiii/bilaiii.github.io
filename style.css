@@ -7,9 +7,9 @@
 }
 
 :root {
-	--bg-0: #fff;
-	--bg-1: #000;
-	--fg-0: #fff;
+	--bg-0: #ffffff;
+	--bg-1: #000000;
+	--fg-0: #ffffff;
 	--accent: #A670E0;
 	--ease-out-expo: cubic-bezier(0.19, 1.00, 0.22, 1.00);
 	--material: cubic-bezier(0.40, 0.00, 0.20, 1.00);
@@ -38,7 +38,15 @@ body {
 }
 
 .footer {
+	&::selection {
+		background-color: var(--accent);
+	}
+
 	a {
+		&::selection {
+			background-color: var(--accent);
+		}
+
 		font-size: 16px;
 	}
 
@@ -79,6 +87,10 @@ a {
 		transform: scaleY(1.8);
 	}
 
+	&::selection {
+		background-color: var(--bg-1);
+	}
+
 }
 
 .header {
@@ -96,6 +108,9 @@ h1 {
 	background-color: var(--bg-1);
 	color: var(--fg-0);
 
+	&::selection {
+		background-color: var(--accent);
+	}
 }
 
 .header::after {
@@ -104,7 +119,7 @@ h1 {
 	display: block;
 	width: 100%;
 	background-size: 40px 40px;
-	transition: background-size 2.4s cubic-bezier(0.85, 0, 0.15, 1);
+	transition: background-size 0.8s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .about.header::after {
@@ -113,7 +128,7 @@ h1 {
 	display: block;
 	width: 100%;
 	background-size: 40px 40px;
-	transition: background-size 2.4s cubic-bezier(0.85, 0, 0.15, 1);
+	transition: background-size 0.8s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .header:hover::after {
@@ -133,6 +148,10 @@ h1 {
 	p {
 		margin: 0;
 		padding: 12px;
+
+		&::selection {
+			background-color: var(--accent);
+		}
 	}
 }
 
